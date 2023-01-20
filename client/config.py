@@ -1,0 +1,26 @@
+# 数据协议相关配置
+REQUEST_LOGIN = '0001'  
+REQUEST_CHAT = '0002'
+REQUEST_GROUP = '0003'
+RESPONSE_LOGIN = '1001'
+RESPONSE_CHAT = '1002'
+SYSTEM_MESSAGE = '1003'
+DELIMITER = '|'
+
+# 服务器相关配置
+SERVER_IP = '127.0.0.1'
+SERVER_PORT = 6666
+
+# 数据库相关配置
+DB_HOST = '127.0.0.1'
+DB_PORT = 3306
+DB_NAME = 'mini_chat'
+DB_USER = 'root'
+DB_PASSWORD = '123456'
+DB_CHARSET = 'utf8'
+
+# 聊天类型相关配置
+TO_ONE = '1'
+TO_GROUP = '2'
+ENTER_ROOM  = '3'
+EXIT_ROOM = '4'
