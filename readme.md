@@ -7,7 +7,7 @@ Python package:
 ```
 pandas=1.4.3
 ```
-测试本程序的时候请尽可能安装不低于上述版本的Python包。
+Please try to install a Python package with a version not lower than the above.
 
 ## Instruction
 This program needs to run the `server.py` file first. Then run the `client.py` file, and multiple `client.py` can be run at the same time. For the convenience of testing, you can first use `main.py` to register users and modify user information, or you can directly use the username and password under `src/database/user.csv`.
